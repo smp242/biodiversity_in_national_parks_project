@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Conda ---
+.env
+.conda/
+*.conda
+
+# --- OS ---
+.DS_Store
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Logs / temp ---
+*.log
+
+# --- Processed Data ---
+biodiversity_starter/df_merged.feather
+
+# --- Large derived artifacts (OPTIONAL) ---
+# Uncomment if you decide NOT to version figures
+# fig*.png
